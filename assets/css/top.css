@@ -1,26 +1,29 @@
 
   /* CARRUSEL TOP ARTISTAS */
-  .top-ti{
+  .top-ti{ /*Titulo*/
       text-align: center;
-      
+      justify-content: center;
+      position:static;
+      margin-top: 2px;
   }
   .carousel {
-    padding: 30px;
-    position: relative;
-    overflow-x: hidden;
+
+    /* position:absolute;
+    overflow-x: hidden; */
     align-items: center;
+    /* margin-bottom: 40%; */
   }
   
   .carousel__container {
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
     width: 100%;
     margin: 70px auto;
     white-space: nowrap;
   }
   
   .carousel--item {
-    display: inline-block;
-    position: relative;
+    display: flex;
+    /* position: absolute; */
     margin: 10px 8px;
     width: 200px;
     height: 250px;
@@ -49,9 +52,10 @@
   }
   
   .carousel--item__img {
-    width: 200px;
-    height: 250px;
+    /* width: 200px;
+    height: 250px; */
     object-fit: cover;
+   
   }
   .carousel--item__details {
     padding: 10px;
